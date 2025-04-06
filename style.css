@@ -1,0 +1,55 @@
+body {
+    background-color: #f1d7c2;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .linhas {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linha {
+    display: flex;
+  }
+  
+  .square,
+  .square-d {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+    background-color: #9E725C;
+  }
+  
+  .square-d {
+    background-color: #F1CEB2;
+  }
+  
+  .fa-solid {
+    font-size: 70px;
+    pointer-events: none;
+  }
+  
+  .branco {
+    color: #fff;
+  }
+  
+  .preto {
+    color: #000;
+  }
+  
+  .selecionado {
+    outline: 3px solid yellow;
+  }
+  
